@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Señales de Advertencia</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+        
+    .box {
+        background-color: #f4ee80;
+        border: 2px solid #cccccc;
+        padding: 20px;
+        text-align: center;
+        max-width: 600px;
+    }
+    .container h1{
+        color: rgb(5, 154, 154);
+    }
+
+
+    .signs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .sign {
+        width: 200px;
+        height: 200px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        position: relative;
+    }
+
+    .sign img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s;
+    }
+
+    .sign:hover img {
+        transform: scale(1.1);
+    }
+
+    .description {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 8px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        font-size: 14px;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <h1>Señales de Advertencia</h1>
+        <div class="box">
+            <p>Las señales de advertencia son dispositivos visuales utilizados en las vías públicas para alertar a los conductores sobre situaciones o condiciones peligrosas que pueden encontrarse en la carretera. Estas señales están diseñadas para captar la atención de los conductores y proporcionarles información anticipada sobre posibles riesgos en la vía.</p>
+        </div>
+        
+        <div class="signs">
+            <div class="sign">
+                <img src="images/signs 1.jpg" alt="Señal de Curva peligrosa">
+                <p class="description">Señal de Curva peligrosa</p>
+            </div>
+            <div class="sign">
+                <img src="images/signs 2.jpg" alt="Señal de Cruce de peatones">
+                <p class="description">Señal de Cruce de peatones</p>
+            </div>
+            <div class="sign">
+                <img src="images/signs 3.png" alt="Señal de Peligro de deslizamiento">
+                <p class="description">Señal de Peligro de deslizamiento</p>
+            </div>
+            <div class="sign">
+                <img src="images/signs 4.jpg" alt="Señal de Animales sueltos">
+                <p class="description">Señal de Animales sueltos</p>
+            </div>
+            <div class="sign">
+                <img src="images/signs 5.png" alt="Señal de Peligro de obras en la vía">
+                <p class="description">Señal de Peligro de obras en la vía</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+

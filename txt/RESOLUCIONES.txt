@@ -1,0 +1,32 @@
+
+-Implementar un sistema de alertas: 
+La aplicación puede enviar notificaciones
+y alertas a los usuarios cuando se detecte 
+una infracción en su área de residencia. 
+Esto puede ayudar a aumentar la conciencia de 
+los usuarios sobre las infracciones y fomentar la denuncia.
+
+-Sanciones económicas: 
+Una de las resoluciones más comunes es la aplicación de multas 
+o sanciones económicas para aquellos que infrinjan las normas 
+establecidas en la aplicación.
+
+-Suspensiones de cuenta: 
+En algunos casos, puede ser necesario suspender temporalmente la 
+cuenta de un usuario que ha infringido las normas, para prevenir futuras 
+infracciones y proteger la seguridad de otros usuarios.
+
+-Cancelación de cuenta: 
+En casos más graves, la cancelación de la cuenta de un usuario 
+puede ser necesaria, especialmente si ha infringido reiteradamente 
+las normas de la aplicación.
+
+-Capacitación o entrenamiento: 
+En algunos casos, puede ser útil ofrecer capacitación o entrenamiento a 
+los usuarios que han infringido las normas, para ayudarles a comprender mejor 
+las reglas de la aplicación y evitar futuras infracciones.
+
+-Restricciones en la funcionalidad de la aplicación: 
+En algunos casos, puede ser necesario restringir el acceso o las funcionalidades 
+de la aplicación a los usuarios que han infringido las normas, para evitar que 
+vuelvan a cometer las mismas infracciones.

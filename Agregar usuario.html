@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agregar Nuevo Usuario</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-container h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-container label {
+      font-weight: bold;
+    }
+
+    .form-container input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    .form-container button[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Agregar Nuevo Usuario</h1>
+    <form id="user-form">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      
+      <label for="direccion">Dirección:</label>
+      <input type="text" id="direccion" name="direccion" required>
+      
+      <label for="documento">Número de Documento:</label>
+      <input type="text" id="documento" name="documento" required>
+      
+      <label for="telefono">Teléfono:</label>
+      <input type="text" id="telefono" name="telefono" required>
+      
+      <button type="submit">Agregar Usuario</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("user-form").addEventListener("submit", function(event) {
+      event.preventDefault(); // Evitar que se envíe el formulario
+      
+      // Obtener los valores del formulario
+      var nombre = document.getElementById("nombre").value;
+      var direccion = document.getElementById("direccion").value;
+      var documento = document.getElementById("documento").value;
+      var telefono = document.getElementById("telefono").value;
+      
+      console.log("Nombre: " + nombre);
+      console.log("Dirección: " + direccion);
+      console.log("Número de Documento: " + documento);
+      console.log("Teléfono: " + telefono);
+      
+      document.getElementById("user-form").reset();
+    });
+  </script>
+</body>
+</html>
+

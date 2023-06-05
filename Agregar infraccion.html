@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Agregar infraccion.css">
+    <title> Agregar - infraccion </title>
+</head>
+<body>
+    <main>
+	<section id="agregar-infraccion">
+		<h2>Agregar infracción</h2>
+		<form>
+			<label for="fecha">Fecha:</label>
+			<input type="date" id="fecha" name="fecha">
+
+			<label for="tipo">Tipo de infracción:</label>
+			<select id="tipo" name="tipo">
+				<option value="exceso-velocidad">Exceso de velocidad</option>
+				<option value="semáforo-rojo">Semáforo en rojo</option>
+				<option value="estacionamiento-prohibido">Estacionamiento prohibido</option>
+				<option value="conducción-temeraria">Conducción imprudente</option>
+			</select>
+
+			<label for="vehiculo">Vehículo:</label>
+			<input type="text" id="vehiculo" name="vehiculo">
+
+			<label for="descripcion">Descripción:</label>
+			<textarea id="descripcion" name="descripcion"></textarea>
+
+			<input type="submit" value="Agregar">
+            <a href="http://127.0.0.1:5500/Menu%20admin.html#">
+                <input type="submit" value="Regresar" style="float: right; background-color: rgb(233, 65, 23);">
+            </a>
+
+		</form>
+	</section>
+</main>
+
+</body>
+</html>

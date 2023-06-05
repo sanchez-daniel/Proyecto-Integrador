@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Señales de Regulación</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h1, h2 {
+        color: #14a2d5;
+    }
+
+    h1 {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #666;
+        margin-bottom: 10px;
+    }
+
+    /* Estilos de las señales */
+    .signs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .sign {
+        width: 200px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
+    }
+
+    .sign:hover {
+        transform: scale(1.05);
+    }
+
+    .sign img {
+        width: 100%;
+        max-height: 150px;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+
+    .sign p {
+        text-align: center;
+    }
+
+    /* Efecto 3D */
+    .sign::before {
+        content: "";
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        right: -4px;
+        bottom: -4px;
+        background-color: #f2f2f2;
+        transform: skew(-2deg, -2deg);
+        z-index: -1;
+    }
+
+    .sign::after {
+        content: "";
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        right: -4px;
+        bottom: -4px;
+        background-color: #f2f2f2;
+        transform: skew(2deg, 2deg);
+        z-index: -1;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <h1>Señales de Regulación</h1>
+        
+        <h2>Descripción</h2>
+        <p>Las señales de regulación son aquellas que indican instrucciones obligatorias o prohibiciones a los conductores y otros usuarios de la vía. Estas señales tienen un carácter normativo y deben ser cumplidas para garantizar la seguridad y el orden en las calles y carreteras.</p>
+        
+        <h2>Ejemplos de señales de regulación</h2>
+        <div class="signs">
+            <div class="sign">
+                <img src="images/sign 1.png" alt="Señal de stop">
+                <p>Señal de Stop</p>
+            </div>
+            <div class="sign">
+                <img src="images/sign 2.jpg" alt="Señal de prohibido el paso">
+                <p>Señal de Prohibido el Paso</p>
+            </div>
+            <div class="sign">
+                <img src="images/sign 3.png" alt="Señal de velocidad máxima">
+                <p>Señal de Velocidad Máxima</p>
+            </div>
+            <div class="sign">
+                <img src="images/sign 4.png" alt="Señal de prohibido estacionar">
+                <p>Señal de Prohibido Estacionar</p>
+            </div>
+            <div class="sign">
+                <img src="images/sign 5.jpg" alt="Señal de prohibido girar a la derecha">
+                <p>Señal de prohibido girar a la derecha</p>
+            </div>
+            <div class="sign">
+                <img src="images/sign 6.jpg" alt="Señal de prohibido adelantar">
+                <p>Señal de prohibido adelantar</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

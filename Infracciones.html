@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CONSULTA DE INFRACCIONES</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+	<h1>Consulta de Infracciones</h1>
+	<form>
+		<fieldset>
+			<legend>Buscar por:</legend>
+			<label for="opcion">Tipo de búsqueda:</label>
+			<select id="opcion" name="opcion">
+				<option value="cedula">Número de cédula</option>
+				<option value="placa">Placa del vehículo</option>
+			</select>
+			<label for="valor">Valor a buscar:</label>
+			<input type="text" id="valor" name="valor">
+			<button type="button" onclick="buscar()">Buscar</button>
+		</fieldset>
+		<fieldset>
+			<legend>Tipo de infracción:</legend>
+			<input type="checkbox" id="multa" name="multa" value="multa">
+			<label for="multa">Multa</label>
+			<input type="checkbox" id="comparendo" name="comparendo" value="comparendo">
+			<label for="comparendo">Comparendo</label>
+			<input type="checkbox" id="sancion" name="sancion" value="sancion">
+			<label for="sancion">Sanción</label>
+		</fieldset>
+	</form>
+	<div id="resultados"></div>
+</body>
+</html>
+
+
+

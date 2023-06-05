@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Modificar infracción - Sistema de Infracciones</title>
+	<link rel="stylesheet" type="text/css" href="Css/Modificar informacion.css">
+</head>
+<body>
+	<header>
+		<h1>Sistema de Infracciones</h1>
+	</header>
+
+	<main>
+		<section id="modificar-infraccion">
+			<h2>Modificar infracción</h2>
+			<form>
+				<label for="numero-infraccion">Número de infracción:</label>
+				<input type="text" id="numero-infraccion" name="numero-infraccion">
+
+				<label for="fecha-infraccion">Fecha:</label>
+				<input type="date" id="fecha-infraccion" name="fecha-infraccion">
+
+				<label for="tipo-infraccion">Tipo de infracción:</label>
+				<select id="tipo-infraccion" name="tipo-infraccion">
+					<option value="exceso-velocidad">Exceso de velocidad</option>
+					<option value="semáforo-rojo">Semáforo en rojo</option>
+					<option value="estacionamiento">Estacionamiento indebido</option>
+				</select>
+
+				<label for="vehiculo">Vehículo:</label>
+				<input type="text" id="vehiculo" name="vehiculo">
+
+				<label for="descripcion">Descripción:</label>
+				<textarea id="descripcion" name="descripcion"></textarea>
+
+				<input type="submit" value="Modificar">
+			</form>
+		</section>
+	</main>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preparación del vehículo</title>
+</head>
+<style>
+    body {
+        background-color: #f9f9f9;
+        color: #333333;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        color: #ff3366;
+    }
+
+    .content {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        color: #0099cc;
+        margin-top: 0;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    ul {
+        margin-top: 0;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+
+    .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .image-gallery img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        animation: image-fade-in 1.9s ease-in-out infinite alternate;
+        position: relative;
+    }
+    .image-gallery img::after {
+        content: attr(title);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #ffffff;
+        padding: 10px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .image-gallery img:hover::after {
+        opacity: 1;
+    }
+
+    @keyframes image-fade-in {
+        0% {
+            opacity: 0;
+            transform: scale(0.7);
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+</style>
+<body>
+<header>
+    <h1>Preparación del vehículo</h1>
+  </header>
+
+  <section class="content">
+    <h2>Importancia de la preparación del vehículo</h2>
+    <p>
+      La preparación adecuada del vehículo es esencial para garantizar la seguridad y el rendimiento óptimo durante la conducción. Mantener el vehículo en buen estado reduce el riesgo de averías y accidentes en la carretera.
+    </p>
+
+    <h2>Tareas de preparación del vehículo</h2>
+    <ul>
+      <li>Verificar el estado de los neumáticos, incluyendo la presión y el dibujo de la banda de rodadura.</li>
+      <li>Inspeccionar y reemplazar los frenos si es necesario.</li>
+      <li>Comprobar los niveles de líquidos, como el aceite del motor, el refrigerante y el líquido de frenos.</li>
+      <li>Asegurarse de que todas las luces del vehículo funcionen correctamente.</li>
+      <li>Limpiar los cristales y asegurarse de tener un buen juego de limpiaparabrisas.</li>
+      <li>Verificar el funcionamiento de los sistemas de seguridad, como los cinturones de seguridad y los airbags.</li>
+    </ul>
+
+    <h2>Imágenes de la preparación del vehículo</h2>
+    <div class="image-gallery">
+      <img src="images/neumaticos.jpg" alt="Verificación de los neumáticos" title="Verificación de los neumáticos">
+      <img src="images/frenos.jpg" alt="Inspección y reemplazo de los frenos" title="Inspección y reemplazo de los frenos">
+      <img src="images/liquidos.jfif" alt="Comprobación de los niveles de líquidos" title="Comprobación de los niveles de líquidos">
+      <img src="images/luces.jpg" alt="Verificación del funcionamiento de las luces" title="Verificación del funcionamiento de las luces">
+      <img src="images/limpieza.jpg" alt="Limpieza de los cristales y limpiaparabrisas" title="Limpieza de los cristales y limpiaparabrisas">
+      <img src="images/seguridad.jpg" alt="Verificación de los sistemas de seguridad" title="Verificación de los sistemas de seguridad">
+    </div>
+  </section>    
+</body>
+</html>

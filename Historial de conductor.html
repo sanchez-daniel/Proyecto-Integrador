@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sistema de Historial del Conductor</title>
+	<link rel="stylesheet" type="text/css" href="Css/Historial de conductor.css">
+</head>
+<body>
+	<header>
+		<h1>Sistema de Historial del Conductor</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="Inicio.html#"> Atras </a></li>
+			<li><a href="#">Lista de Conductores</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="inicio">
+			<h2>Bienvenido al Sistema de Historial del Conductor</h2>
+			<p>Ingrese el número de licencia de conducir para buscar el historial del conductor:</p>
+			<form>
+				<label for="licencia">Número de Licencia:</label>
+				<input type="text" id="licencia" name="licencia">
+				<button type="submit">Buscar</button>
+			</form>
+		</section>
+		<section id="conductores">
+			<h2>Lista de Conductores</h2>
+			<ul>
+				<li><a href="#">Nombre del Conductor 1</a></li>
+				<li><a href="#">Nombre del Conductor 2</a></li>
+				<li><a href="#">Nombre del Conductor 3</a></li>
+			</ul>
+		</section>
+		<section id="conductor1">
+			<h2>Historial del Conductor - Nombre del Conductor 1</h2>
+			<p>Información de contacto:</p>
+			<ul>
+				<li>Número de Licencia: 123456</li>
+				<li>Teléfono: 555-555-5555</li>
+				<li>Correo Electrónico: conductor1@ejemplo.com</li>
+			</ul>
+			<p>Historial de Conducción:</p>
+			<table>
+				<thead>
+					<tr>
+						<th>Fecha</th>
+						<th>Tipo de Infracción</th>
+						<th>Lugar</th>
+						<th>Puntos/Multa</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01/01/2021</td>
+						<td>Exceso de Velocidad</td>
+						<td>Av. Principal</td>
+						<td>2 puntos</td>
+					</tr>
+					<tr>
+						<td>15/03/2021</td>
+						<td>No detenerse en semáforo en rojo</td>
+						<td>Calle 5</td>
+						<td>$150</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 INFRACTIFY</p>
+	</footer>
+</body>
+</html>

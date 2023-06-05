@@ -1,0 +1,29 @@
+-Infracción: 
+Una infracción se produce cuando un usuario de la 
+aplicación o plataforma incumple una norma o reglamento establecido. 
+Las infracciones pueden variar en gravedad, desde simples violaciones 
+de las políticas de uso hasta delitos graves.
+
+-Sanciones: Las sanciones son las medidas tomadas para hacer cumplir las 
+normas y reglamentos de la aplicación o plataforma. Las sanciones pueden 
+incluir multas, restricciones en la cuenta del usuario, suspensión o cancelación 
+de la cuenta, entre otros.
+
+-Resoluciones: Las resoluciones son las medidas tomadas para solucionar una 
+infracción una vez que ha sido detectada. Las resoluciones pueden incluir la 
+aplicación de sanciones, la eliminación de contenido inapropiado, la notificación a las 
+autoridades competentes, entre otras.
+
+-Políticas de uso: Las políticas de uso son las normas y regulaciones establecidas en la 
+aplicación o plataforma para garantizar un uso seguro y adecuado. Las políticas de uso 
+pueden incluir restricciones sobre contenido inapropiado, comportamiento fraudulento, y otras 
+actividades que pueden violar las leyes y regulaciones aplicables.
+
+-Reporte de infracciones: El reporte de infracciones es el proceso mediante el cual los 
+usuarios de la aplicación o plataforma pueden informar sobre cualquier actividad inapropiada o 
+infracción de las políticas de uso.
+
+-Monitoreo: El monitoreo es el proceso mediante el cual se vigila la actividad de los 
+usuarios de la aplicación o plataforma para detectar infracciones de las políticas de uso. 
+El monitoreo puede ser manual o automatizado, y puede utilizar tecnologías como inteligencia 
+artificial y aprendizaje automático para detectar infracciones.

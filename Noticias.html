@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <style>
+        /* CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .news-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .news-article {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .news-article img {
+            width: 150px;
+            height: 100px;
+            margin-right: 20px;
+            object-fit: cover;
+            border-radius: 10px 0 0 10px;
+        }
+        
+        .news-article h3 {
+            margin: 0;
+            color: #333;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        
+        .news-article p {
+            margin: 5px 0 0;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        /* Adicion para mas color */
+        .news-article:nth-child(even) {
+            background-color: #eaf2f8;
+        }
+        
+        .news-article:nth-child(odd) {
+            background-color: #f8e6ea;
+        }
+        
+        .news-article:hover {
+            transform: translateY(-3px);
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .news-article:hover img {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .news-article:hover h3 {
+            color: #ff5500;
+            transition: color 0.3s ease-in-out;
+        }
+        
+        .news-article:hover p {
+            color: #777;
+            transition: color 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="news-section">
+        <div class="news-article">
+            <img src="images/image 1 notice.jpg" alt="News Image 1">
+            <div>
+                <h3>Aumento de multas por exceso de velocidad en áreas escolares</h3>
+                <p>Informa a los usuarios sobre el aumento de las multas por conducir a alta 
+                    velocidad en zonas escolares, resaltando la importancia de la seguridad 
+                    vial y la protección de los niños.</p>
+            </div>
+        </div>
+        
+        <div class="news-article">
+            <img src="images/image 2 notice.jpg" alt="News Image 2">
+            <div>
+                <h3>Implementación de cámaras de vigilancia para detectar conductores distraídos</h3>
+                <p>Destaca la instalación de cámaras de vigilancia en las vías públicas para detectar conductores 
+                    que utilizan sus teléfonos móviles mientras conducen, con el objetivo de reducir los 
+                    accidentes causados por la distracción.</p>
+            </div>
+        </div>
+        
+        <div class="news-article">
+            <img src="images/image 3 notice.png" alt="News Image 3">
+            <div>
+                <h3>Nuevo programa de educación vial para conductores novatos</h3>
+                <p>Presenta un programa de educación vial diseñado específicamente para 
+                    conductores novatos, con el objetivo de mejorar sus habilidades de 
+                    conducción y concienciar sobre las normas de tráfico.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

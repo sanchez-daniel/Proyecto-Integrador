@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión del espacio alrededor del vehículo</title>
+</head>
+<style>
+    body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #e17f10;
+        text-align: center;
+        color: #fff;
+        padding: 20px;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .image-item {
+        margin: 10px;
+        max-width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .image-item img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .image-item:hover img {
+        transform: scale(1.1);
+    }
+
+    .image-caption {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+    }
+
+    .image-caption h2 {
+        margin: 0;
+    }
+
+    .image-caption p {
+        margin: 5px 0;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+<body>
+  <header>
+    <h1>Gestión del espacio alrededor del vehículo</h1>
+  </header>
+
+  <section class="image-gallery">
+    <div class="image-item">
+      <img src="images/imagens1.avif" alt="Imagen 1 en movimiento">
+      <div class="image-caption">
+        <h2>Mantén una distancia segura</h2>
+        <p>Asegúrate de mantener una distancia adecuada con otros vehículos para evitar colisiones.</p>
+      </div>
+    </div>
+
+    <div class="image-item">
+      <img src="images/imagens2.png" alt="Imagen 2 en movimiento">
+      <div class="image-caption">
+        <h2>Evita los puntos ciegos</h2>
+        <p>Utiliza los espejos retrovisores y realiza movimientos de cabeza para tener una visión completa.</p>
+      </div>
+    </div>
+
+    <div class="image-item">
+      <img src="images/imagens3.jpeg" alt="Imagen 3 en movimiento">
+      <div class="image-caption">
+        <h2>Utiliza los espacios disponibles</h2>
+        <p>Aprovecha los espacios abiertos en la vía y mantente alejado de situaciones de riesgo.</p>
+      </div>
+    </div>
+  </section>   
+</body>
+</html>

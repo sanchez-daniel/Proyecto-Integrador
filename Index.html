@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SISTEMA DE INFRACCIONES</title>
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Infractify</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="Inicio.html">INICIO</a></li>
+                    <li><a href="Sobre%20infranctify.html">SOBRE INFRACTIFY</a></li>
+                    <li><a href="Registros%20infractify.html">REGISTROS INFRACTIFY</a></li>
+                    <li><a href="Normativa.html">NORMATIVA</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Buscar en la pagina">
+                <a href="#"> <button class="btn">Buscar</button></a>
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1> Infractify <br><span>Sistema de </span> <br>Infracciones</h1>
+            <br>
+            <p class="par">Bienvenido al sistema de infracciones. 
+                Esta aplicación te permitirá gestionar y controlar de manera eficiente las 
+                infracciones de tránsito cometidas en tu ciudad. Aquí podrás registrar las 
+                infracciones, hacer seguimiento a los procesos de multas y controlar el estado 
+                de las sanciones impuestas. ¡Comienza ahora y mantén las calles seguras para 
+                todos!</p>
+                <br>
+                <br>
+                <button class="cn"><a href="#">UNETE A NOSOTROS</a></button>
+
+                <div class="form">
+                    <h2>Entre Aqui</h2>
+                    <br>
+                    <label for="tipo-usuario">Tipo de usuario:</label>
+					<select id="tipo-usuario" name="tipo-usuario" required>
+						<option value="">Seleccione un tipo de usuario</option>
+						<option value="administrador">Administrador</option>
+						<option value="usuario">Usuario</option>
+					</select>
+                    <input type="email" name="email" placeholder="Correo Electronico">
+                    <input type="password" name="" placeholder="Contraseña">
+                    
+                    <button class="btnn" onclick="redireccionar()">Entrar</button>
+
+                    <script>
+                        function redireccionar() {
+                            var tipoUsuario = document.getElementById("tipo-usuario").value;
+                            if (tipoUsuario === "administrador") {
+                              window.location.href = "Menu%20admin.html";
+                            } else {
+                              window.location.href = "Inicio.html";
+                            }
+                          }
+                    </script>
+
+                    <p class="link">¿Aun no tienes cuenta?
+                    <a href="Login.html"> Registrate </a>Aqui</a></p>
+                    <p class="liw">Inicia con</p>
+
+                    <div class="icons">
+                        <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-703661740%3A1684098558929608&continue=https%3A%2F%2Ftakeout.google.com%2F%3Fhl%3Des&followup=https%3A%2F%2Ftakeout.google.com%2F%3Fhl%3Des&hl=es&ifkv=Af_xneGMJrF07jsJE9TeZCDRaLmYXP4FbmvONYWQPLLBxnh0h_05Q6FsfczcYjyZengFQlot8HpADg&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="https://signup.live.com/signup?lcid=1033&wa=wsignin1.0&rpsnv=13&ct=1684098627&rver=7.1.6819.0&wp=MBI_SSL&wreply=https%3a%2f%2flw.skype.com%2flogin%2foauth%2fproxy%3fclient_id%3d578134%26redirect_uri%3dhttps%253A%252F%252Fweb.skype.com%26source%3dscomnav%26form%3dmicrosoft_registration%26fl%3dphone2&lc=1033&id=293290&mkt=es-ES&psi=skype&lw=1&cobrandid=2befc4b5-19e3-46e8-8347-77317a16a5a5&client_flight=ReservedFlight33%2CReservedFligh&fl=phone2&lic=1&uaid=d72e3fcb515c478199549506d4436c7c"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>

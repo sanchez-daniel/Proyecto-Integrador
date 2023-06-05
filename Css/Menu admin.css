@@ -1,0 +1,80 @@
+/* Estilo para el header */
+header {
+	background-color: #0c0b0b;
+	color: #fffafa;
+	text-align: center;
+	padding: 10px;
+}
+
+/* Estilo para el título */
+h1 {
+	margin: 0;
+	font-size: 28px;
+}
+
+/* Estilo para el menú de navegación */
+nav {
+	background-color: #090909;
+	font-size: 16px;
+}
+
+/* Estilo para los elementos de la lista */
+li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+/* Estilo para los enlaces de la lista */
+li a {
+	display: block;
+	padding: 10px 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Estilo para los enlaces de la lista en hover */
+li a:hover {
+	background-color: #444;
+}
+
+/* Estilo para los elementos de lista secundaria */
+li ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	padding: 0;
+	margin: 0;
+}
+
+/* Estilo para los elementos de lista secundaria visibles */
+li:hover > ul {
+	display: block;
+}
+
+/* Estilo para los enlaces de lista secundaria */
+li ul li {
+	display: block;
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilo para los enlaces de lista secundaria en hover */
+li ul li a:hover {
+	background-color: #070707;
+}
+
+/* Estilo para el contenido principal */
+main {
+	padding: 20px;
+}
+
+/* Estilo para los enlaces de Cerrar sesión */
+nav ul li:last-child a {
+	color: rgb(253, 80, 6);
+}
+
+

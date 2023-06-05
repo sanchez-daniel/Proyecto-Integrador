@@ -1,0 +1,40 @@
+La seguridad vial es responsabilidad de todos. 
+Para evitar accidentes de tránsito, es importante respetar 
+las normas de tránsito, no conducir bajo los efectos del alcoholo 
+drogas, y mantener la atención 
+en la carretera en todo momento. ¡Conduce con precaución 
+y llega seguro a tu destino!
+ 
+ ¿QUE ES?
+Es una plataforma en línea que se utiliza para implementar y gestionar
+un sistema de reglas y procedimientos destinados a regular el comportamiento
+de un grupo de personas en un determinado contexto. A través de esta aplicación, 
+se pueden registrar y reportar infracciones, administrar sanciones y hacer seguimiento 
+al cumplimiento de las normas establecidas.
+
+¿COMO FUNCIONA?
+Funciona mediante la recopilación y análisis de información relacionada
+con el comportamiento de las personas en un determinado contexto.
+Además, puede permitir la gestión de recursos y el seguimiento de la eficacia del sistema. Por ejemplo, 
+se pueden asignar responsabilidades específicas a los usuarios para hacer cumplir las normas, 
+y se puede hacer seguimiento al cumplimiento de las sanciones impuestas. 
+Todo esto se realiza a través de una interfaz de usuario fácil de usar y accesible 
+desde cualquier dispositivo con conexión a internet.
+
+¿QUIENES INTERACTUAN CON INFRACTIFY?
+Ciudadanos: Las personas que viven o trabajan en un área determinada pueden utilizar
+ la aplicación para reportar infracciones o para conocer las normas y sanciones correspondientes.
+
+Autoridades locales: Los responsables de hacer cumplir las normas y sanciones
+ pueden utilizar la aplicación para recibir informes de infracciones, registrar sanciones, 
+ hacer seguimiento al cumplimiento, entre otras actividades.
+
+Empresas: Las empresas pueden utilizar la aplicación para registrar infracciones o incumplimientos
+ por parte de sus empleados o para recibir notificaciones sobre cambios en las normas y sanciones correspondientes.
+
+Organizaciones sin fines de lucro: Las organizaciones pueden utilizar la aplicación para promover
+ la conciencia sobre las normas y sanciones correspondientes, y para ayudar a las personas a reportar infracciones.
+
+En general, cualquier persona o institución que tenga interés en regular 
+el comportamiento de un grupo de personas en un determinado contexto puede interactuar con una 
+aplicación web sobre infracciones.

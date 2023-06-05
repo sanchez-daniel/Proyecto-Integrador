@@ -1,0 +1,25 @@
+
+-Circular de lanzamiento: 
+Esta circular se enviaría a los usuarios de la aplicación cuando 
+se lance por primera vez, informando sobre las características y normas de 
+la aplicación, y las sanciones y resoluciones que se aplicarán en caso de infracciones.
+
+Circular de actualización: 
+Esta circular se enviaría a los usuarios de la aplicación 
+cuando se realice una actualización importante, informando sobre los 
+cambios en las normas, reglamentos o procedimientos, y las sanciones y 
+resoluciones que se aplicarán en caso de infracciones.
+
+-Circular de recordatorio: 
+Esta circular se enviaría a los usuarios de la aplicación 
+como un recordatorio de las normas y reglamentos establecidos en la 
+aplicación, y las sanciones y resoluciones que se aplicarán en caso de infracciones.
+
+-Circular de aclaración: 
+Esta circular se enviaría a los usuarios de la aplicación para aclarar 
+cualquier duda o confusión que puedan tener sobre las normas o sanciones de la aplicación.
+
+Circular de cierre: 
+Esta circular se enviaría a los usuarios de la aplicación si la 
+aplicación se cierra definitivamente, informando sobre las razones del 
+cierre y cualquier impacto que pueda tener en los usuarios.
